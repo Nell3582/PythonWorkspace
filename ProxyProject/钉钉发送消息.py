@@ -51,7 +51,8 @@ class dd:
         print(type(data))
         if data['errcode'] == 0 and data['errmsg'] == 'ok':
             console.hud_alert('发送成功,请到客户端查看相关信息')
-            print('发送成功,请到客户端查看相关信息')
+        else:
+            print(f'未知错误,错误信息{data}')
         print(req.text)
 
 
