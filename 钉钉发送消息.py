@@ -5,7 +5,7 @@ import requests
 import json
 
 
-text = pyperclip.paste()
+
 
 class dd:
     def req(self):
