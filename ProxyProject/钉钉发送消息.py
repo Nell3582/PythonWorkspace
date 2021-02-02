@@ -1,7 +1,7 @@
 
-# import appex
-# import clipboard
-# import console
+import appex
+import clipboard
+import console
 import requests
 import json
 import pyperclip
